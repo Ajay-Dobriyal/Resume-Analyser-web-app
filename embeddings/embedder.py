@@ -1,4 +1,4 @@
-# embeddings/embedder.py
+
 
 from sentence_transformers import SentenceTransformer
 
