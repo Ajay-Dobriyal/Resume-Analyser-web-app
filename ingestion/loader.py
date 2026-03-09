@@ -2,7 +2,6 @@ import pdfplumber
 from io import BytesIO
 
 def read_pdf(contents: bytes) -> str:
-    """Read PDF from uploaded file bytes"""
 
     text = ""
 
