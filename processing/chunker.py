@@ -1,16 +1,10 @@
 def clean_text(text: str) -> str:
-    """
-    Basic text cleaning.
-    """
     text = text.replace("\n", " ")
     text = " ".join(text.split())  # remove extra spaces
     return text
 
 
 def chunk_text(text: str, chunk_size: int = 500, overlap: int = 100) -> list:
-    """
-    Splits text into overlapping chunks.
-    """
 
     chunks = []
     start = 0
